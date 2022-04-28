@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import './App.css'
+import { Main } from './assets/Routes/Routes'
+import { GlobalStyles } from './assets/styles/GlobalStyles'
 import { Home } from './pages/home'
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <Home title='Teste' description='Esta é a descrição' />
+      <GlobalStyles></GlobalStyles>
+      <Main />
+      
     </div>
   )
 }
