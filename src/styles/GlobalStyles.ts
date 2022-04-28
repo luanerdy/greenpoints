@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   ${reset}
 
   :root {
-    --color-primary: #00FF00;
+    --color-Dark-Button: #025940;
+    --color-Light-Button: #03A64A;
   }
 `;
