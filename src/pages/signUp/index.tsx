@@ -12,6 +12,7 @@ import {
 import { Btn } from "../../components/btn";
 import { FormEvent, useLayoutEffect, useState } from "react";
 import { signupIndivudual } from "../../services/individualsApi";
+import { useNavigate } from "react-router-dom";
 
 export const SignUp = () => {
   const [step, setStep] = useState(1);
@@ -21,6 +22,7 @@ export const SignUp = () => {
     email: "",
     password: "",
   });
+  const navigate = useNavigate();
 
   const handleContinue = (e: MouseEvent) => {
     e.preventDefault();
@@ -45,8 +47,8 @@ export const SignUp = () => {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    const response = await signupIndivudual(fields);
-    console.log(response);
+    await signupIndivudual(fields);
+    navigate('/');
   };
 
   const handleInputChange = (name: string, value: string) => {
