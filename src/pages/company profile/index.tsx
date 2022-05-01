@@ -8,13 +8,14 @@ import {
 
 import logo_company from '../../assets/images/ifood.png'
 
-import {HeaderCompanyProfile} from '../../assets/components/header/index'
+import {HeaderGlobal} from '../../assets/components/header/index'
+import {MissionsCurrent} from '../../assets/components/missions/index'
 
 export const CompanyProfile = () =>{
     return(
         <Main_Company_profile>
 
-            <HeaderCompanyProfile/>
+            <HeaderGlobal/>
 
             <Box_company>
                 <img src={logo_company} alt="logo"/>
@@ -43,9 +44,13 @@ export const CompanyProfile = () =>{
                 </p>
                 <select>
                     <option>Desafios com mais pontos</option>
+                    <option>Desafios com menos pontos</option>
+                    <option>De A á Z</option>
+                    <option>Desafios mais populares</option>
                 </select>
             </OrderCollect>
-        
+
+            <MissionsCurrent/>
 
         </Main_Company_profile>
     )

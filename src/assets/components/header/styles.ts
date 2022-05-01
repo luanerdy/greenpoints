@@ -6,12 +6,13 @@ justify-content: center;
 align-items: center;
 
 width: 100vw;
-height: 50px;
+height: 70px;
 
 padding: 2% 1%;
 text-align:center;
 
 box-shadow: 0px 3px 2px #D3D3D3;
+transition: 2s;
 
 `
 const Title_company = styled.h1`
@@ -34,7 +35,8 @@ const Icon = styled.div`
 const Modal_Menu = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    margin: 5% 2%;
 
     position: absolute;
     top: 0;
@@ -45,7 +47,7 @@ const Modal_Menu = styled.div`
 
     background-color: white;
     width: 92vw;
-    height: 70vh;
+    height: 150vh;
 `
 const Choice_menu = styled.div`
     display: flex;
@@ -64,6 +66,7 @@ const Choice_menu = styled.div`
     & p{
         font-size: 18px;
     }
+    margin-bottom: 10%;
 `
 
 
