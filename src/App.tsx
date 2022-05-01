@@ -8,9 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <GlobalStyles></GlobalStyles>
+      <GlobalStyles />
       <Main />
-      
     </div>
   )
 }
