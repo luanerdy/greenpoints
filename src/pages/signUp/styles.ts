@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const SignUpField = styled.div`
+const SignUpField = styled.form`
   font-family: "Monrope", sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   padding: 0.5em;
   grid-template-rows: 5% 80% 10%;
