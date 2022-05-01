@@ -39,8 +39,9 @@ export const SignUp = () => {
             <h2>Aceito os Termos de Uso e Política de Privacidade.</h2>
           </Checkbox>
         </MainContent>
-
-        <Btn text="Cadastrar" />
+        <Field>
+          <Btn text="Cadastrar" />
+        </Field>
       </SignUpField>
     </>
   );
