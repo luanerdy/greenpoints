@@ -6,8 +6,7 @@ const BoxField = styled.ul`
   padding: 10px;
   grid-row-gap: 5px;
   grid-column-gap: 5px;
-  width:100%;
-}
+  width: 100%;
 `;
 
 const StyleStore = styled.div`
@@ -15,6 +14,8 @@ const StyleStore = styled.div`
   height: 100vh;
   margin: 25px auto;
   padding: 0.5rem;
+
+  max-width: 600px;
 
   div {
     display: flex;
