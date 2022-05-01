@@ -62,7 +62,7 @@ export const SignUp = () => {
 
   return (
     <>
-      <SignUpField autoComplete="off" onSubmit={handleSubmit}>
+      <SignUpField onSubmit={handleSubmit}>
         <Header>
           <img src={logo} alt="Logo" />
           <img src={close} alt="Close Button" />
