@@ -1,6 +1,15 @@
 import styled from "styled-components"
 
 const HeaderCompany = styled.header`
+
+position: fixed;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+
+z-index: 100;
+margin: 0 auto;
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -12,6 +21,8 @@ padding: 2% 1%;
 text-align:center;
 
 box-shadow: 0px 3px 2px #D3D3D3;
+
+background-color: #fff;
 
 `
 const Title_company = styled.h1`

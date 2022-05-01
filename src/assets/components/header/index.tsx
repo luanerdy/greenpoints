@@ -1,5 +1,5 @@
 import {
-    HeaderCompany, 
+    HeaderCompany,
     Title_company,
     Image_header,
     Icon,
@@ -23,16 +23,16 @@ export const HeaderCompanyProfile = () =>{
     return(
         <HeaderCompany>
 
-            <Link to={'/'} style={{textDecoration:'none',display:'flex',alignItems:'center'}}> 
-            <img src={logo} alt="logo" style={{width:'30px', marginRight:'10px'}} /> 
+            <Link to={'/'} style={{textDecoration:'none',display:'flex',alignItems:'center'}}>
+            <img src={logo} alt="logo" style={{width:'30px', marginRight:'10px'}} />
             <Title_company>Green Points</Title_company></Link>
 
             <Image_header>
 
-                <Icon><Link to={"/notification"} ><img src={bell} alt="bell" /></Link></Icon> 
+                <Icon><Link to={"/notification"} ><img src={bell} alt="bell" /></Link></Icon>
                 <Icon onClick={()=>{ setButtonAcrivate(false) }} ><img src={Menu} alt="Menu" /></Icon>
 
-            </Image_header> 
+            </Image_header>
 
             {  !ButtonAcivate &&
                 <Modal_Menu>
@@ -47,8 +47,8 @@ export const HeaderCompanyProfile = () =>{
 
                 </Modal_Menu>
             }
-            
-                
+
+
         </HeaderCompany>
     )
 }
