@@ -1,19 +1,32 @@
-import { HomeStyles } from "./styles";
-import { HomeProps } from "../../@types/propsTypes";
-import {Link} from'react-router-dom'
+import './styles/styles.css'
+import { GlobalHeader } from '../../components/header'
+import { Banners } from './components/banners'
+import { SearchBar } from '../../components/searchBar'
+import { Partnerships } from '../../components/partnerships'
+import { ChallengesHighlights } from '../../components/challengesHighlights'
 
-export const Home = (props: HomeProps) => {
-  const { description, number, title } = props;
-
+export const Home = () => {
   return (
-    <HomeStyles>
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <p>{number}</p>
-        <Link to={"/Company_profile"}>Company Profile</Link>
-
-      </div>
-    </HomeStyles>
-  );
+    <div className="home-container">
+      <main>
+        <header>
+          <GlobalHeader />
+        </header>
+        <section className="banners">
+          <Banners />
+        </section>
+        <section className="partnerships">
+          <div className="searchBar">
+            <SearchBar />
+          </div>
+          <div className="partnerships-main">
+            <Partnerships />
+          </div>
+          <div className="challenges-main">
+            <ChallengesHighlights />
+          </div>
+        </section>
+      </main>
+    </div>
+  )
 }
