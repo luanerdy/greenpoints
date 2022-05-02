@@ -6,7 +6,7 @@ export const Button_Green = (props: {andress: string, text: string}) =>{
 
     return(
         <Button_style>
-            <Link to={andress}>{text}</Link>
+            <Link to={andress} >{text}</Link>
         </Button_style>
 
     )

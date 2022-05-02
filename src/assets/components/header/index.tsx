@@ -38,7 +38,7 @@ export const HeaderGlobal = () =>{
                 <Modal_Menu>
 
                     <Choice_menu onClick={()=>{setButtonAcrivate(true)}} ><p style={{position:'absolute', left:'-20px', fontSize: '40px',color: 'var(--color-Dark-Button)',marginLeft:'85%', paddingTop:'27%'}} >&times;</p> </Choice_menu>
-                    <Choice_menu> <img src={Profile} alt='Profile'/> <p>Perfil</p> </Choice_menu>
+                    <Choice_menu> <img src={Profile} alt='Profile'/> <p><Link to={'/individual-register'}>Perfil</Link></p> </Choice_menu>
                     <Choice_menu> <img src={Rocket} alt='Rocket' /> <p>Meus desafios</p> </Choice_menu>
                     <Choice_menu> <img src={Profile} alt='Profile'/> <p>Trocar pontos</p> </Choice_menu>
                     <Choice_menu> <img src={Rocket} alt='Rocket' /> <p>Desafios favoritos</p> </Choice_menu>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import {HeaderGlobal} from '../../assets/components/header/index'
 import { Input_Missions } from "../../assets/components/input_missions";
 import { MissionsCurrent } from "../../assets/components/missions";
+import { Modal_message } from "../../assets/components/Modal_message";
 import {
     BoxInform,
     Detach,
@@ -70,6 +71,7 @@ export const Missions_Activate = () =>{
 
             <MissionsCurrent/>
 
+            
 
         </>
     )

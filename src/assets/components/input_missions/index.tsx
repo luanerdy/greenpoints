@@ -17,8 +17,8 @@ export const Input_Missions = ()=> {
                 <option>Pernambuco</option>
             </select>
 
-            <Button_Green andress='/' text='Começar tarefa' />
+            <Button_Green andress='/modal_messege' text='Começar tarefa'/>
             
-        </Box_input_missions>
+        </Box_input_missions >
     )
 }

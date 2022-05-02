@@ -2,10 +2,7 @@ import styled from "styled-components"
 
 const HeaderCompany = styled.header`
 
-position: fixed;
-top: 0;
-left: 50%;
-transform: translateX(-50%);
+display: flex;
 
 z-index: 100;
 margin: 0 auto;
@@ -76,6 +73,10 @@ const Choice_menu = styled.div`
     }
     & p{
         font-size: 18px;
+    }
+    & a{
+        text-decoration: none;
+        color: black;
     }
     margin-bottom: 10%;
 `
