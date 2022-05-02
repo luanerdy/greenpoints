@@ -5,6 +5,8 @@ import { SearchBar } from '../../components/searchBar'
 import { Partnerships } from '../../components/partnerships'
 import { ChallengesHighlights } from '../../components/challengesHighlights'
 import { Blog } from '../../components/blog'
+import { NewComers } from '../../components/newcomers'
+import { Footer } from '../../components/footer'
 
 export const Home = () => {
   return (
@@ -29,7 +31,13 @@ export const Home = () => {
           <div className="blog-main">
             <Blog />
           </div>
+          <div className="newcomers-main">
+            <NewComers />
+          </div>
         </section>
+        <footer>
+          <Footer />
+        </footer>
       </main>
     </div>
   )

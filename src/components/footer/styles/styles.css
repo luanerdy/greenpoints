@@ -1,0 +1,60 @@
+.footer-container {
+  height: 432px;
+  width: 360px;
+
+  background-color: #017d37;
+
+  margin-top: 65rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+
+  padding: 2rem;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.about-info {
+  height: 2.4rem;
+  width: 30.5rem;
+
+  border-bottom: 1px solid white;
+
+  padding: 2rem;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-info b {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+
+  color: white;
+}
+
+.footer-logo {
+  margin-top: 2rem;
+}
+
+.about-final-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+
+  color: white;
+}
