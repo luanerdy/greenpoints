@@ -1,6 +1,7 @@
 import './styles/styles.css'
 import { GlobalHeader } from '../../components/header'
 import { Banners } from './components/banners'
+import { SearchBar } from '../../components/searchBar'
 
 export const Home = () => {
   return (
@@ -11,6 +12,11 @@ export const Home = () => {
         </header>
         <section className="banners">
           <Banners />
+        </section>
+        <section className="partnerships">
+          <div className="searchBar">
+            <SearchBar />
+          </div>
         </section>
       </main>
     </div>
