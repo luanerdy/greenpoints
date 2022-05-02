@@ -1,0 +1,100 @@
+.banners-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner-backgrounds {
+  width: 100%;
+}
+
+.card {
+  height: 0.4rem;
+  width: 3.7rem;
+  border-radius: 0.3rem;
+
+  border: 1px solid #017d37;
+}
+
+.banners-container p {
+  position: absolute;
+
+  max-width: 18.6rem;
+
+  top: 1rem;
+
+  margin-left: 1.5rem;
+}
+
+.challenge-description-banner {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  color: white;
+
+  width: 19.6rem;
+}
+
+.challenge-name-banner {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+
+  margin-top: 5rem;
+
+  color: white;
+}
+
+.index-cards {
+  display: flex;
+  gap: 0.8rem;
+
+  margin-left: 10rem;
+  margin-top: 1.2rem;
+}
+
+.banner-know-more {
+  margin-top: 13rem;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+
+  color: white;
+}
+
+.know-more-link {
+  position: absolute;
+  top: 1.4rem;
+
+  margin-top: 13rem;
+  margin-left: 10rem;
+}
+
+.activeCard {
+  background-color: #017d37;
+}
+
+.banner-icon-image {
+  position: absolute;
+
+  left: 16rem;
+  bottom: -1.5rem;
+}
+
+.banner-icon-image-2 {
+  position: absolute;
+
+  left: 16rem;
+  bottom: 1rem;
+}
