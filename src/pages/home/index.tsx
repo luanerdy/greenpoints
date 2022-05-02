@@ -1,19 +1,12 @@
-import { HomeStyles } from "./styles";
-import { HomeProps } from "../../@types/propsTypes";
-import {Link} from'react-router-dom'
+import './styles/styles.css'
+import { GlobalHeader } from '../../components/header'
 
-export const Home = (props: HomeProps) => {
-  const { description, number, title } = props;
-
+export const Home = () => {
   return (
-    <HomeStyles>
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <p>{number}</p>
-        <Link to={"/Company_profile"}>Company Profile</Link>
-
+    <div className="home-container">
+      <div className="home-header">
+        <GlobalHeader />
       </div>
-    </HomeStyles>
-  );
+    </div>
+  )
 }
