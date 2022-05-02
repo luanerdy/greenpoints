@@ -4,6 +4,7 @@ import { Banners } from './components/banners'
 import { SearchBar } from '../../components/searchBar'
 import { Partnerships } from '../../components/partnerships'
 import { ChallengesHighlights } from '../../components/challengesHighlights'
+import { Blog } from '../../components/blog'
 
 export const Home = () => {
   return (
@@ -24,6 +25,9 @@ export const Home = () => {
           </div>
           <div className="challenges-main">
             <ChallengesHighlights />
+          </div>
+          <div className="blog-main">
+            <Blog />
           </div>
         </section>
       </main>

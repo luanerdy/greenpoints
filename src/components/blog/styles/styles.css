@@ -1,13 +1,13 @@
-.challengesHighlights-container {
+.blog-container {
   height: 12rem;
 
   display: flex;
   flex-direction: column;
 
-  margin-top: 4.8rem;
+  /* margin-top: 4.8rem; */
 }
 
-.challengesHighlights-top {
+.blog-top {
   display: flex;
 
   justify-content: space-between;
@@ -17,10 +17,10 @@
 
   font-family: 'Manrope', sans-serif;
 
-  margin-top: 6.4rem;
+  margin-top: 20.4rem;
 }
 
-.challengesHighlights-top h1 {
+.blog-top h1 {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 2rem;
@@ -28,7 +28,7 @@
   color: #001537;
 }
 
-.challengesHighlights-top b {
+.blog-top b {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.9rem;
@@ -36,13 +36,13 @@
   color: #017d37;
 }
 
-.challengesHighlights-show-more {
+.blog-show-more {
   display: flex;
 
   gap: 1rem;
 }
 
-.challengesHighlights-info {
+.blog-info {
   display: flex;
 
   padding: 2rem;
@@ -51,7 +51,7 @@
   max-width: 100%;
 }
 
-.challenge {
+.blog {
   font-family: 'Manrope', sans-serif;
 
   display: flex;
@@ -61,14 +61,9 @@
   height: 21.7rem;
 
   margin-top: 2rem;
-
-  box-shadow: 0px 3.6886227130889893px 11.065868377685547px 0px #0000001a;
-  border-radius: 0.3rem;
-
-  padding: 0.6rem;
 }
 
-.challenge span {
+.blog span {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.9rem;
@@ -78,7 +73,7 @@
   margin-top: 0.8rem;
 }
 
-.challenge p {
+.blog p {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6rem;
@@ -86,7 +81,7 @@
   margin-top: 0.8rem;
 }
 
-.challenge-points {
+.blog-points {
   position: relative;
 
   height: 19px;
@@ -98,7 +93,7 @@
   margin-top: 1.2rem;
 }
 
-.challenge-points span {
+.blog-points span {
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.5rem;
@@ -106,13 +101,13 @@
   margin-left: 2rem;
 }
 
-.challenge-points img {
+.blog-points img {
   position: absolute;
 
   left: 0.5rem;
 }
 
-.challenge button {
+.blog button {
   height: 3.3rem;
   width: 140px;
   border-radius: 3rem;
@@ -122,4 +117,12 @@
   border: none;
 
   margin-top: 1.2rem;
+}
+
+.blog-date {
+  color: #bdbdbd;
+}
+
+.blog-description {
+  color: #303030;
 }
