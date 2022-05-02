@@ -1,0 +1,125 @@
+.newComers-container {
+  height: 12rem;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4.8rem;
+}
+
+.newComers-top {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 2rem;
+
+  font-family: 'Manrope', sans-serif;
+
+  margin-top: 35rem;
+}
+
+.newComers-top h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+  color: #001537;
+}
+
+.newComers-top b {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+
+  color: #017d37;
+}
+
+.newComers-show-more {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.newComers-info {
+  display: flex;
+
+  padding: 2rem;
+  gap: 2rem;
+
+  max-width: 100%;
+}
+
+.newComers {
+  font-family: 'Manrope', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 15.4rem;
+  height: 21.7rem;
+
+  margin-top: 2rem;
+
+  box-shadow: 0px 3.6886227130889893px 11.065868377685547px 0px #0000001a;
+  border-radius: 0.3rem;
+
+  padding: 0.6rem;
+}
+
+.newComers span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+
+  color: 303030;
+
+  margin-top: 0.8rem;
+}
+
+.newComers p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+
+  margin-top: 0.8rem;
+}
+
+.newComers-points {
+  position: relative;
+
+  height: 19px;
+  width: 85px;
+
+  border-radius: 3px;
+  background-color: #67b18780;
+
+  margin-top: 1.2rem;
+}
+
+.newComers-points span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+
+  margin-left: 2rem;
+}
+
+.newComers-points img {
+  position: absolute;
+
+  left: 0.5rem;
+}
+
+.newComers button {
+  height: 3.3rem;
+  width: 140px;
+  border-radius: 3rem;
+
+  background-color: #017d37;
+
+  border: none;
+
+  margin-top: 1.2rem;
+}
