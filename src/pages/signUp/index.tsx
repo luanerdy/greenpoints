@@ -147,6 +147,7 @@ export const SignUp = () => {
           }
         </MainContent>
 
+
         {
           {
             1: <Btn text="Continuar" type="button" onClick={handleContinue} />,
