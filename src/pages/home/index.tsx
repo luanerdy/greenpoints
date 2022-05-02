@@ -2,6 +2,7 @@ import './styles/styles.css'
 import { GlobalHeader } from '../../components/header'
 import { Banners } from './components/banners'
 import { SearchBar } from '../../components/searchBar'
+import { Partnerships } from '../../components/partnerships'
 
 export const Home = () => {
   return (
@@ -16,6 +17,9 @@ export const Home = () => {
         <section className="partnerships">
           <div className="searchBar">
             <SearchBar />
+          </div>
+          <div className="partnerships-main">
+            <Partnerships />
           </div>
         </section>
       </main>
