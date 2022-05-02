@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyleBtn = styled.button`
-  background-color: var(--primary);
+  background-color: var(--color-Light-Button);
   color: white;
   width: 327px;
   height: 35px;
