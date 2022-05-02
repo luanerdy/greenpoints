@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import reset from "styled-reset";
+import { createGlobalStyle } from 'styled-components'
+import reset from 'styled-reset'
 
 export const GlobalStyles = createGlobalStyle`
   ${reset}
@@ -11,4 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     --primary-variation:#67B187;
     --primary:#017D37;
   }
+  html {
+    font-size: 62.5%
+    }
 `;
